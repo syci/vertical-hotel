@@ -157,7 +157,7 @@ class hotel_restaurant_reservation(osv.osv):
         'start_date':fields.datetime('Start Date', required=True),
         'end_date':fields.datetime('End Date', required=True),
         'cname':fields.many2one('res.partner', 'Customer Name', size=64, required=True),
-        'partner_address_id':fields.many2one('res.partner.address', 'Address'),
+        'partner_address_id':fields.many2one('res.partner', 'Address'),
         'tableno':fields.many2many('hotel.restaurant.tables', 'reservation_table', 'reservation_table_id', 'name', 'Table number'),
         'state' : fields.selection([('draft', 'Draft'), ('confirm', 'Confirmed'), ('done', 'Done'), ('cancel', 'Cancelled')], 'state', select=True, required=True, readonly=True),
         }
