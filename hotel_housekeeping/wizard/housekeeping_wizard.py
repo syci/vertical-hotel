@@ -21,7 +21,7 @@
 #
 ##############################################################################
 
-import wizard
+#import wizard
 from osv import osv, fields
 
 class hotel_housekeeping_wizard(osv.osv_memory):

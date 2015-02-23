@@ -26,7 +26,7 @@ from mx import DateTime
 import datetime
 import pooler
 from tools import config
-import wizard
+#import wizard
 import netsvc
 import pooler
 

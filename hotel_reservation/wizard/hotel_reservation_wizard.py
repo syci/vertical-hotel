@@ -25,7 +25,7 @@ from mx import DateTime
 import datetime
 import pooler
 from tools import config
-import wizard
+#import wizard not compatible
 import netsvc
 
 class hotel_reservation_wizard(osv.osv_memory):
